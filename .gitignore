@@ -1,3 +1,5 @@
 /vendor/
-.idea
+/vendor-bin/
 /tools/
+/.idea/
+/bin/
