@@ -1,0 +1,16 @@
+{
+    "name": "z4rp/quick-tpl",
+    "description": "Make config files quick and dirty with templates",
+    "type": "project",
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "z4rp",
+            "email": "jw+git@ichwillne.info"
+        }
+    ],
+    "minimum-stability": "stable"
+}
