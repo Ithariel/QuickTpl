@@ -2,14 +2,14 @@
 
 require_once 'vendor/autoload.php';
 
-if($argc <= 1) {
+if ($argc <= 1) {
     echo "Usage: {$argv[0]} template";
     exit(1);
 }
 
 $template = $argv[1];
 $config = @include "templates/{$template}.conf.php";
-if(!$config) {
+if (!$config) {
     echo "Config file templates/{$template}.conf.php not found";
     exit(1);
 }
