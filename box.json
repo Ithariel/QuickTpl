@@ -1,0 +1,17 @@
+{
+  "output": "bin/quicktpl.phar",
+  "finder": [
+    {
+      "notName": "/LICENSE|.*\\.md|.*\\.dist|Makefile|composer\\.json|composer\\.lock/",
+      "exclude": [
+        "vendor-bin",
+        "templates"
+      ],
+      "in": "vendor"
+    },
+    {
+      "name": "composer.json",
+      "in": "."
+    }
+  ]
+}

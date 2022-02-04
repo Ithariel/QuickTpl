@@ -12,5 +12,8 @@
             "email": "jw+git@ichwillne.info"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.4"
+    }
 }
